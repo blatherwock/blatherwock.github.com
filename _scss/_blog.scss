@@ -1,0 +1,123 @@
+/* In post styles */
+.bl-post_body h1,
+.bl-post_body h2,
+.bl-post_body h3 {
+  margin-bottom: 5px;
+  text-indent: 0;
+}
+.bl-post_body h1 {
+  font-size: 140%;
+}
+.bl-post_body h2 {
+  font-size: 120%;
+}
+.bl-post_body h3 {
+  font-size: 110%;
+}
+.bl-pullquote {
+  max-width: 150px;
+  display: block;
+  margin: 5px;
+  text-indent: 0;
+  font-size: 120%;
+}
+.bl-pullquote-r {
+  float: right;
+}
+.bl-pullquote-l {
+  float: left;
+  text-align: right;
+  margin-left: 0;
+  margin-right: 10px;
+}
+blockquote {
+  text-align: justify;
+  margin: 25px;
+  padding: 10px 0 10px 0;
+}
+.bl-post_body pre {
+  text-indent: 0;
+}
+.bl-post_body pre code {
+  display: block;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+/* Tag List Styles */
+.bl-tag_list {
+  position: absolute;
+  padding:0 ;
+  top: 100px;
+  left: 100%;
+  min-height: 110px;
+  border-radius: 0 2px 2px 0;
+  transition:         padding 0.5s, min-height 0.5s;
+  -webkit-transition: padding 0.5s, min-height 0.5s;
+  -moz-transition:    padding 0.5s, min-height 0.5s;
+  -o-transition:      padding 0.5s, min-height 0.5s;
+}
+.bl-tag_list h2 {
+  font-size: 125%;
+  position: absolute;
+  margin-top: 42px; /*to position correctly when closed */
+  top: 0;
+  transform:         rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform:    rotate(90deg);
+  -o-transform:      rotate(90deg);
+  -ms-transform:     rotate(90deg);
+  transition:                 transform 0.5s, margin-top 0.5s;
+  -webkit-transition: -webkit-transform 0.5s, margin-top 0.5s;
+  -moz-transition:       -moz-transform 0.5s, margin-top 0.5s;
+  -o-transition:           -o-transform 0.5s, margin-top 0.5s;
+}
+.bl-tag_list ul {
+  opacity: 0;
+  padding-top: 0;
+  min-width: 35px;
+  max-width: 35px;
+  transition:         opacity 0.5s 0.2s, padding-top 0.5s;
+  -webkit-transition: opacity 0.5s 0.2s, padding-top 0.5s;
+  -moz-transition:    opacity 0.5s 0.2s, padding-top 0.5s;
+  -o-transition:      opacity 0.5s 0.2s, padding-top 0.5s;
+}
+.bl-tag_list li,
+.bl-tag_list a {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+.bl-tag_list a {
+  display: inline-block;
+}
+.bl-tag_list:hover,
+.bl-tag_list:focus {
+  padding: 20px;
+  min-height: 70px; /*since we are increasing padding, we can decrease the min-height; as long as the sum of the 2 stay the same we won't run into flickering when opening*/
+}
+.bl-tag_list:hover h2,
+.bl-tag_list:focus h2 {
+  transform:         rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform:    rotate(0);
+  -o-transform:      rotate(0);
+  -ms-transform:     rotate(0);
+  margin-top: 10px;
+  right: 0;/*needed for center alignment*/
+  width: 100%;
+  text-align: center;
+}
+.bl-tag_list:hover ul,
+.bl-tag_list:focus ul {
+  padding-top: 15px;
+  opacity: 1;
+  max-width: none;
+}
+.bl-tag_list:hover li,
+.bl-tag_list:hover a,
+.bl-tag_list:focus li {
+  visibility: visible;
+  height: auto;
+  width: auto;
+}

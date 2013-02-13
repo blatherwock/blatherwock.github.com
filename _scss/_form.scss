@@ -1,0 +1,88 @@
+/* Form Styles */
+fieldset {
+  padding: 20px 0 40px 0;
+  margin: 20px 0 20px 0;
+  border: 1px solid;
+  position: relative;
+}
+legend {
+  margin-left: 40px;
+  padding: 0 10px 0 10px;
+}
+/* added the type to override the global reset */
+label,
+textarea,
+input[type] {
+  width: 90%;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+input[type=submit] {
+  width: 100%;
+  padding: 1px 5px 1px 5px;
+}
+label {
+  margin-bottom: 0;
+}
+.bl-fieldset_btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* login and edit forms */
+.bl-form-login {
+  padding: 0 100px 0 100px;
+}
+.bl-form-login fieldset label,
+.bl-form-login fieldset input[type] {
+  width: 60%;
+}
+.bl-form-login fieldset input[type=submit] {
+  width: 100%;
+}
+.bl-edit_post {
+  position: relative;
+  padding: 10px 5px 60px 5px;
+  margin: 0 10px 0 10px;
+}
+.bl-edit_post h2 {
+  padding: 0 0 20px 3%;
+}
+.bl-edit_post .bl-fieldset_btn {
+  margin-right: 10%;
+}
+/* Post */
+.bl-post h2 {
+  margin-bottom: 0;
+}
+.bl-post .bl-post_body {
+  padding: 10px;
+  text-indent: 10px;
+}
+.bl-post .bl-admin_controls {
+  opacity: 0;
+  transition:         opacity 0.25s;
+  -webkit-transition: opacity 0.25s;
+  -moz-transition:    opacity 0.25s;
+  -o-transition:      opacity 0.25s;
+}
+.bl-post:hover .bl-admin_controls {
+  opacity: 1;
+}
+footer.bl-main {
+  .bl-admin_controls {
+    margin: 0 15px 5px 0;
+  }
+  input[type] {
+    margin-bottom: 0;
+  }
+  li {
+    padding: 0 5px 0 5px;
+  }
+}
+.bl-admin_controls {
+  float: right;
+}
+.bl-admin_controls li {
+  display: inline-block;
+}

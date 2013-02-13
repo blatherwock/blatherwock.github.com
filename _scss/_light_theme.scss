@@ -1,0 +1,62 @@
+html {
+  color: #252525;
+}
+.bl-btn_link,
+a:link,
+a:visited {
+  color: #925822;
+}
+.bl-info,
+label {
+  color: #686862;
+}
+.bl-btn:hover,
+.bl-bt:focus{
+  box-shadow: 0 0 10px -3px #252525;
+}
+/* Text Styles */
+label,
+dt
+{
+  text-shadow: 1px 1px 1px rgba(55,55,55,0.4);
+}
+.bl-info,
+label {
+  color: #686862;
+}
+.bl-info,
+label,
+fieldset {
+  color: #888882;
+}
+legend {
+  color: #333;
+}
+input[type],
+textarea {
+  background-color: #FDFDFD;
+  color: #252525;
+  box-shadow: inset 0px 1px 5px 2px #A0A0A0;
+  padding: 8px;
+}
+article h1,
+article h2 {
+ text-shadow: 1px 1px 3px rgba(25,25,25,0.30);
+}
+.bl-btn_link,
+article a:link {
+ text-shadow: 1px 1px 3px rgba(66,24,2,0.4);
+}
+article {
+  background-color: #FDFDFD;
+  box-shadow: 0px 3px 13px -2px #EEE; 
+}
+article footer {
+  box-shadow: inset 0px 8px 7px -10px #494949;
+}
+.bl-projects li {
+  box-shadow: 0px 8px 7px -10px #494949;
+}
+.bl-resume a:link {
+  color: #553322;
+}

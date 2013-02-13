@@ -1,0 +1,171 @@
+/* Main Layout CSS Source*/
+ /* General */
+html
+{
+  height: 100%;
+}
+body
+{
+  text-align: center;
+  height: 100%;
+}
+
+/* Default Links */
+a:link, a:visited
+{
+  text-decoration: none;
+}
+a:hover, a:active, a:focus
+{
+  text-decoration: underline;
+}
+/* Default Content */
+h1, h2, h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 200%;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 154%;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 120%;
+}
+.bl-site_wrapper
+{
+  text-align: left;
+  min-height: 100%;
+  width: 87%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+footer {
+  clear: both;
+}
+/* List Styles *
+ul {
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+/* Header Styles */
+header.bl-main {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  position: relative;
+
+  h1.bl-title {
+    font-size: 400%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 440%;
+    margin-top: -15px;
+    font-variant: small-caps;
+    &:first-letter {
+      font-size: 120%;
+    }
+  }
+  nav {
+    padding-top: 60px;
+    text-align: center;
+  }
+  nav li {
+    display: inline-block;
+    font-size: 123%;
+    padding: 0 15px 0 15px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+/* Footer Styles */
+footer.bl-main {
+  text-align: center; 
+}
+/* Page Layouts */
+.bl-content {
+  padding: 20px 0 60px 0;
+}
+.bl-info {
+  font-size: 85%; /* 11px */
+  margin: 5px 0 10px 0;
+  dd, dt {
+    clear: both;
+    float: none;
+    display: inline;
+  }
+  dt {
+    padding: 0 2px 0 5px;
+  }
+  dt:after {
+    content:":"
+  }
+}
+article {
+  padding: 15px 30px 15px 30px;
+  margin: 10px;
+
+  footer {
+    width: 55%;
+    margin: 10px auto 0 auto;
+    padding-top: 5px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+object img {
+  width: auto;
+}
+/* Other Pages */
+.bl-home {
+  padding-top: 40px;
+  
+  img {
+    display: block;
+    width: 50%;
+    margin: 60px auto 40px auto;
+  }
+}
+.bl-about {
+  .bl-resume_link {
+    width: 100%;
+    text-align: center;
+  }
+  .bl-social_links {
+    text-align: center;
+  }
+  .bl-social_links li {
+    display: inline-block;
+    padding: 10px;
+  }
+  li.bl-email_item {
+    display:none;
+  }
+}
+.yui3-js-enabled .bl-about li.bl-email_item {
+  display: inline-block;
+}
+.bl-projects {
+  li {
+    padding: 10px 0 10px 0;
+  }
+}
+.bl-project {
+  li:before {
+    content: "\00BB \0020";
+  }
+  ul {
+    padding-bottom: 10px
+  }
+}

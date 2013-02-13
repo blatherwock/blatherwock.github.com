@@ -1,0 +1,58 @@
+/* Styles specifically for the resume page  */
+dl {
+  margin: 0;
+}
+dt {
+  clear: left;
+  float: left;
+}
+dt:after {
+  content: ":"
+}
+dd {
+  float: left;
+}
+dl dd {
+  margin-left: 5px;
+}
+dl+* {
+  padding-top: 10px;
+  clear:left;
+}
+.bl-resume {
+  margin-top: 10px;
+  header {
+      text-align: center;
+      padding-top: 15px;
+    }
+  h1 {
+    font-variant: small-caps;
+    margin-bottom: 0;
+  }
+  h2 {
+    padding-bottom: 5px;
+    padding-top: 25px;
+    font-variant: small-caps;
+  }
+  h3 {
+    display: inline;
+  }
+  .bl-job_title {
+    padding-left: 10px;
+  }
+  dt, dd {
+    margin-top: 3px;
+  }
+  .bl-skills dd {
+    clear: left;
+    margin-left: 15px;
+  }
+  .bl-info-job_date,
+  .bl-info-degree {
+    float:right;
+    margin: 0;
+  }
+  .bl-info-degree {
+    font-size: 100%;
+  }
+}
