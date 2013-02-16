@@ -1,26 +1,21 @@
 /* Styles specifically for the resume page  */
-dl {
-  margin: 0; }
-
-dt {
-  clear: left;
-  float: left; }
-
-dt:after {
-  content: ":"; }
-
-dd {
-  float: left; }
-
-dl dd {
-  margin-left: 5px; }
-
-dl + * {
-  padding-top: 10px;
-  clear: left; }
-
 .bl-resume {
+  margin: 0;
   margin-top: 10px; }
+  .bl-resume dl {
+    margin: 0; }
+  .bl-resume dt {
+    clear: left;
+    float: left; }
+  .bl-resume dt:after {
+    content: ":"; }
+  .bl-resume dd {
+    float: left; }
+  .bl-resume dl dd {
+    margin-left: 5px; }
+  .bl-resume dl + * {
+    padding-top: 10px;
+    clear: left; }
   .bl-resume header {
     text-align: center;
     padding-top: 15px; }
