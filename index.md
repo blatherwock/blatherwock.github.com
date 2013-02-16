@@ -41,10 +41,6 @@ Piano composition and improvisation, musicals, pencil sketching, Skyrim
 * [Picasa][picasa]
 * [Twitter][twitter]
 
-<footer>
-  <date class="bl-info" pubdate="05-2012">Last updated Feb, 2013</date>
-</footer>
-
 [workday]: http://www.workday.com
 [color_sorter]: pages/projects/color_sorter.html
 [color_proportion]: pages/projects/color_proportion.html
