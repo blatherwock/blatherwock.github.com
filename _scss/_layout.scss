@@ -28,7 +28,7 @@ h1 {
   margin-bottom: 15px;
 }
 h2 {
-  font-size: 154%;
+  font-size: 164%;
   margin-bottom: 10px;
 }
 h3 {
@@ -60,32 +60,35 @@ ul {
 }
 /* Header Styles */
 header.bl-main {
-  padding-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
+  padding-top: 10px;
+  margin: 0 auto 80px auto;
+  width: 100%;
   position: relative;
 
-  h1.bl-title {
-    font-size: 400%;
+  img {
+    width: 65px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 30px;
+  }
+  h1 {
     position: absolute;
-    text-align: center;
-    width: 100%;
-    font-size: 440%;
-    margin-top: -15px;
-    font-variant: small-caps;
-    &:first-letter {
-      font-size: 120%;
-    }
+    font-size: 350%;
+    margin-top: 15px;
+    margin-left: 97px;
   }
   nav {
-    padding-top: 60px;
-    text-align: center;
-  }
-  nav li {
-    display: inline-block;
-    font-size: 123%;
-    padding: 0 15px 0 15px;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 30px;
+
+    li {
+      text-align: right;
+      font-size: 123%;
+      margin-bottom: 7px;
+      padding: 0 5px 0 5px;
+    }
   }
   a:hover {
     text-decoration: none;
@@ -101,7 +104,7 @@ footer.bl-main {
 }
 /* Page Layouts */
 .bl-content {
-  padding: 20px 0 60px 0;
+  padding: 20px 0 40px 0;
 }
 .bl-info {
   font-size: 85%; /* 11px */
@@ -119,11 +122,11 @@ footer.bl-main {
   }
 }
 article {
-  padding: 15px 30px 15px 30px;
-  margin: 10px;
+  padding: 20px 30px 20px 30px;
+  margin: 20px 30px 20px 30px;
 
   footer {
-    width: 55%;
+    max-width: 145px;
     margin: 10px auto 0 auto;
     padding-top: 5px;
     text-align: center;
@@ -137,13 +140,11 @@ object img {
 }
 /* Other Pages */
 .bl-home {
-  padding-top: 40px;
-  
-  img {
-    float: right;
-    width: 25%;
-    margin: 0 30px 0 30px;
+  h2 {
+    font-size: 120%;
+    margin-top: 15px;
   }
+  
   ul {
     text-align: center;
     padding-top: 20px;
@@ -160,26 +161,18 @@ object img {
   dl {
     margin: 0;
   }
-  dt {
-    clear: left;
-    float: left;
-  }
   dt:after {
     content: ":"
-  }
-  dd {
-    float: left;
   }
   dl dd {
     margin-left: 5px;
   }
   dl+* {
     padding-top: 10px;
-    clear:left;
   }
   header {
     text-align: center;
-    padding-top: 15px;
+    margin-bottom: -20px;
   }
   footer {
     margin-top: 50px;
@@ -196,6 +189,9 @@ object img {
   h3 {
     display: inline;
     padding-right: 10px;
+  }
+  section {
+    padding-left: 10px;
   }
   dt, dd {
     margin-top: 3px;
@@ -220,5 +216,33 @@ object img {
   }
   ul {
     padding-bottom: 10px
+  }
+}
+
+/* For narrow resolutions */
+@media all and (max-width: 500px) {
+  header.bl-main {
+    nav {
+      top: 70px;
+      right: 120px;
+      margin: 0;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+  .bl-home ul li {
+    padding: 4px;
+  }
+}
+@media all and (max-width: 415px) {
+  header.bl-main {
+    h1 {
+      font-size: 300%;
+    }
+    nav {
+      right: auto;
+      left: 97px;
+    }
   }
 }

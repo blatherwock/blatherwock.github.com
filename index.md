@@ -4,34 +4,31 @@ title: Home
 page_class: bl-home
 ---
 
-![image of a tiger lily flower][tiger_lily]
+About Joseph
+------------
 
-Professional Life
------------------
+I am a professional software engineer, occasional video gamer, hobbyist artist and musician living in Manhattan. I enjoy music improvisation and composition and I love going to musicals whenever my [partner][blargon] will come with me.
 
-I am a software developer currently working as a front end engineer at [Workday Inc][workday]. I work with Flex to build features for Workday's metadata driven UI application.
 
-Personal Projects
------------------
+Work
+----
 
-Recently I've been doing projects involving Rails, HTML5/CSS3, javascript. On the side when I have time I have been learning Lisp. 
+I work as a front end engineer at [Workday Inc][workday]. I use Flex to build features for Workday's metadata driven UI application.
 
-Some notable school projects were one involving [color organization][color_sorter] and another with [image quantization][color_proportion].
 
-School
+Play
+----
+
+Recently I've been doing projects involving Rails, HTML5/CSS3, and JavaScript. On the side when I have time I have been learning Lisp. 
+
+Notable school projects include a [color organizer][color_sorter] and an [image quantizer][color_proportion].
+
+
+Dream
 ------
 
-I attended an accelerated undergraduate program Computer Science. I particularly enjoyed my algorithms and computational theory classes. In the future I plan to return to school for a MS and potentially a PhD in Computer Science.
+I thrived in an accelerated CS undergraduate program, particurlary the algorithms and computational theory courses. It cultivated a desire to deepen my understanding of those topics and to investigate omitted areas. While pursuing personal study, I also hope to continue my formal education and learn more about topics such as machine learning, knowledge representation, and semantic networks.
 
-Other Computer Science Interests
---------------------------------
-
-Machine Learning, Knowledge Representation, Semantic Networks
-
-Other Interests / Hobbies
--------------------------
-
-Piano composition and improvisation, musicals, pencil sketching, Skyrim
 
 * [LinkedIn][linkedin]
 * [Facebook][facebook]
@@ -41,11 +38,11 @@ Piano composition and improvisation, musicals, pencil sketching, Skyrim
 * [Picasa][picasa]
 * [Twitter][twitter]
 
+[blargon]: http://www.blargon.net
 [workday]: http://www.workday.com
 [color_sorter]: pages/projects/color_sorter.html
 [color_proportion]: pages/projects/color_proportion.html
 [resume]: pages/resume.html
-[tiger_lily]: images/tiger_lily.png
 
 [linkedin]: http://www.linkedin.com/pub/joseph-baker/b/a5a/76
 [facebook]: http://www.facebook.com/profile.php?id=727096715

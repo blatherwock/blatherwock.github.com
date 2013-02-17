@@ -9,7 +9,9 @@ page_class: bl-resume
   <a id="email" class="bl-contact" user="joseph" href="/contact/joseph/josephbaker/net"></a>
   <a class="bl-email" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=">Email</a>
 </header>
+
 <h2>Skills</h2>
+<section>
 <dl class="bl-skills">
   <dt>Programming/Markup Languages</dt>
   <dd>Ruby, C#, Actionscript, Java, HTML5, CSS3, Javascript, XML, XSLT</dd>
@@ -20,7 +22,10 @@ page_class: bl-resume
   <dt>Some experience with</dt>
   <dd>C++, Lisp</dd>
 </dl>
-<h2>Employment History</h2>
+</section>
+
+<h2>Employment</h2>
+<section>
 <h3>Workday Inc.</h3>
 <span>UI Developer</span>
 <span class="bl-info bl-info-job_date">Sep 2010 - Present</span>
@@ -38,7 +43,10 @@ page_class: bl-resume
   <dd>Java, Silverlight</dd>
 </dl>
 <p>Enhanced and completely rebuilt a research tool to quantize images and measure proportions between color quantities. Worked to identify requirements, visual design, and added features that were integral to moving the research forward, resulting in a published paper. <span class="bl-web_only">See the <a href="/pages/projects/color_proportion.html">project page</a> for more information.</span></p>
+</section>
+
 <h2>Education</h2>
+<section>
 <h3>Neumont University</h3>
 <em>summa cum laude</em>
 <span class="bl-info bl-info-degree">B.S. Computer Science, 9/2010</span>
@@ -46,4 +54,5 @@ page_class: bl-resume
   <dt>Interests</dt>
   <dd>Software Architecture and Design, Knowledge Representation, Algorithm Analysis</dd>
 </dl>
+</section>
 <footer><date class="bl-info" pubdate="02-2013">Last Updated: Feb 2013</date></footer>

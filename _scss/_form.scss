@@ -86,3 +86,79 @@ footer.bl-main {
 .bl-admin_controls li {
   display: inline-block;
 }
+
+
+/* Form Theme Styles */
+/* Button Styles */
+a.bl-btn {/* anchor reset */
+  color: #000000;
+  text-decoration: none;
+}
+a.bl-btn,
+.bl-btn {
+  background: none;
+  background: -webkit-linear-gradient(top,  #FFFFFF 12%, #DDDDDD 60%, #AAAAAA 100%);
+  border: solid 1px #999999;
+  border-radius: 5px;
+  padding: 1px 13px 1px 13px;
+  cursor: pointer;
+  display: inline-block;
+}
+.bl-btn:hover,
+.bl-bt:focus{
+  background: -webkit-linear-gradient(top, #FFFFFF 18%, #DDDDDD 80%, #CCCCCC 100%);
+  box-shadow: 0 0 10px -3px #AAA;
+  border-color: #777;
+}
+.bl-btn:active {
+  background: -webkit-linear-gradient(top, #888888 0%, #EEEEEE 10%, #AAAAAA 80%, #888888 100%);
+}
+.bl-btn_link {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.bl-btn_link:hover {
+  text-decoration: underline;
+}
+.bl-info,
+label,
+fieldset {
+  color: #888882;
+  font-style: italic;
+}
+.bl-info label,
+.bl-info dt,
+form label {
+  text-shadow: 1px 1px 1px rgba(100,100,100,0.4);
+}
+legend {
+  color: #DDD;
+}
+input[type],
+textarea {
+  background-color: #212121;
+  color: #AAA;
+  border: 0px solid #353535;
+  box-shadow: inset 0px 1px 5px 2px #181818;
+  padding: 8px;
+}
+
+.bl-pullquote {
+  font-style: italic;
+}
+.bl-pullquote-r {
+  padding-left: 5px;
+  box-shadow: -3px 0 5px -3px #999;
+}
+.bl-pullquote-l {
+  padding-right: 5px;
+  box-shadow: 3px 0 5px -3px #999;
+}
+blockquote {
+  padding: 10px;
+  box-shadow: 0 5px 15px -10px #999, 0 -5px 15px -10px #999;
+}
+code {
+  font-family: 'Ubuntu Mono', monospace;
+}
