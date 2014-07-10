@@ -1,0 +1,132 @@
+<html>
+<head>
+  <style>
+    html, body, div, ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .info {
+      margin: 20px;
+      display: block;
+    }
+    .workarea {
+      background-color: #DDDDDD;
+      position: relative;
+    }
+    .org {
+      height: 20px;
+      width: 20px;
+      border: 1px solid green;
+      margin: 10px;
+    }
+    li {
+      position: absolute;
+    }
+    .bounds {
+      position: absolute;
+      border: 1px dashed rgba(0, 140, 210, .3);
+      width: 400px;
+      height: 600px;
+    }
+    .parent1 {
+      top: 230px;
+      left: 155px;
+    }
+    .child11 {
+      top: 280px;
+      left: 115px;
+    }
+    .child12 {
+      top: 280px;
+      left: 155px;
+    }
+    .child13 {
+      top: 280px;
+      left: 195px;
+    }
+    .parent2 {
+      top: 830px;
+      left: 155px;
+    }
+    .child21 {
+      top: 880px;
+      left: 115px;
+    }
+    .child22 {
+      top: 880px;
+      left: 155px;
+    }
+    .child23 {
+      top: 880px;
+      left: 195px;
+    }
+    #shifting_org_parent_slot, #shifting_org_child_slot {
+      opacity: 0.01;
+    }
+    .org1 {
+      top: 0;
+    }
+    .org2 {
+      top: 600px;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $( function() {
+      var shiftingOrgParentSlot = $("#shifting_org_parent_slot");
+      var shiftingOrgChildSlot = $("#shifting_org_child_slot");
+      var shiftingOrg = $("#shifting_org");
+
+      var org1BoundingBox = $(".org1");
+      var org2BoundingBox = $(".org2");
+
+      var orgMin = shiftingOrgChildSlot.position().top;
+      var orgMax = shiftingOrgParentSlot.position().top;
+
+      var orgStartX = shiftingOrgChildSlot.position().left;
+      var orgEndX = shiftingOrgParentSlot.position().left;
+
+      var firstBound = org1BoundingBox.offset().top;
+      var secondBound = org2BoundingBox.offset().top;
+
+      var orgDistance = orgMax - orgMin;
+      var orgXDistance = orgEndX - orgStartX;
+      var boundDistance = secondBound - firstBound;
+
+      var onScroll = function() {
+        var windowScrollTop = $( window ).scrollTop() - firstBound;
+
+        var percentScrolled = Math.min(Math.max(windowScrollTop / boundDistance, 0), 1);
+        
+        var yResult = orgMin + (orgDistance * percentScrolled);
+        var xResult = orgStartX + (orgXDistance * percentScrolled);
+        shiftingOrg.css({top: yResult, left: xResult});
+      };
+
+      $( window ).scroll(onScroll);
+      onScroll();
+    });
+  </script>
+</head>
+<body>
+  <span class="info">For shifting to work correctly, please resize your browser to smaller than one of the dashed regions below. (600px)</span>
+  <div class="workarea">
+    <ul class="orgs">
+	<li class="org parent1"></li>
+	<li class="org child11"></li>
+	<li class="org child12" id="shifting_org_child_slot"></li>
+	<li class="org child13"></li>
+
+	<li class="org parent2" id="shifting_org_parent_slot"></li>
+	<li class="org child21"></li>
+	<li class="org child22"></li>
+	<li class="org child23"></li>
+
+	<li class="org" id="shifting_org"></li>
+    </ul>
+    <div class="org1 bounds"></div>
+    <div class="org2 bounds"></div>
+  </div>
+</body>
+</html>
