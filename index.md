@@ -13,13 +13,13 @@ I am a professional software engineer, occasional video gamer, hobbyist artist a
 Work
 ----
 
-I work as a front end engineer at [Workday Inc][workday]. I use Flex to build features for Workday's metadata driven UI application.
+I work as a front end engineer at [Workday Inc][workday]. I use GWT to build features for Workday's metadata driven UI application.
 
 
 Play
 ----
 
-Recently I've been doing projects involving Rails, HTML5/CSS3, and JavaScript. On the side when I have time I have been learning Lisp. 
+Recently I've been doing projects involving AngularJS, HTML5/CSS3, and JavaScript. On the side when I have time I have been learning Lisp. 
 
 Notable school projects include a [color organizer][color_sorter] and an [image quantizer][color_proportion].
 
