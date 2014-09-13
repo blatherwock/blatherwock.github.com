@@ -29,25 +29,19 @@ Dream
 
 I thrived in an accelerated CS undergraduate program, particurlary the algorithms and computational theory courses. It cultivated a desire to deepen my understanding of those topics and to investigate omitted areas. While pursuing personal study, I also hope to continue my formal education and learn more about topics such as machine learning, knowledge representation, and semantic networks.
 
-
-* [LinkedIn][linkedin]
-* [Facebook][facebook]
-* [Google+][googleplus]
-* [DeviantArt][deviantart]
-* [GitHub][github]
-* [Picasa][picasa]
-* [Twitter][twitter]
+<ul>
+  <li><a href="http://www.linkedin.com/pub/joseph-baker/b/a5a/76" class="socicon socicon-linkedin"></a></li>
+  <li><a href="http://www.facebook.com/profile.php?id=727096715" class="socicon socicon-facebook"></a></li>
+  <li><a href="https://plus.google.com/114434765567690468241" class="socicon socicon-google"></a></li>
+  <li><a href="https://github.com/blatherwock" class="socicon socicon-github"></a></li>
+  <li><a href="http://blatherwock.deviantart.com/" class="socicon socicon-deviantart"></a></li>
+  <li><a href="https://www.flickr.com/photos/blatherwock/" class="socicon socicon-flickr"></a></li>
+  <li><a href="http://steamcommunity.com/profiles/76561198032500689/" class="socicon socicon-steam"></a></li>
+  <li><a href="http://twitter.com/blatherwock" class="socicon socicon-twitter"></a></li>
+</ul>
 
 [blargon]: http://www.blargon.net
 [workday]: http://www.workday.com
 [color_sorter]: pages/projects/color_sorter.html
 [color_proportion]: pages/projects/color_proportion.html
 [resume]: pages/resume.html
-
-[linkedin]: http://www.linkedin.com/pub/joseph-baker/b/a5a/76
-[facebook]: http://www.facebook.com/profile.php?id=727096715
-[googleplus]: https://plus.google.com/114434765567690468241
-[deviantart]: http://blatherwock.deviantart.com/
-[github]: https://github.com/blatherwock
-[picasa]: https://picasaweb.google.com/Joseph.Baker31
-[twitter]: http://twitter.com/blatherwock
