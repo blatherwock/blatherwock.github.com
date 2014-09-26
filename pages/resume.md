@@ -14,11 +14,11 @@ page_class: bl-resume
 <section>
 <dl class="bl-skills">
   <dt>Programming/Markup Languages</dt>
-  <dd>Ruby, C#, Actionscript, Java, HTML5, CSS3, Javascript, XML, XSLT</dd>
+  <dd>Javascript, HTML5, CSS3, Ruby, Java, C#, Actionscript, XML, XSLT</dd>
   <dt>Frameworks</dt>
-  <dd>Flex, Rails, WPF, Silverlight, Asp.NET, J2EE</dd>
+  <dd>GWT, Flex, Rails, AngularJS, WPF, Silverlight, Asp.NET, J2EE</dd>
   <dt>Other Technical Skills</dt>
-  <dd>MySQL, MS SQL Server, Software and Database Design, Object Role Modeling (ORM)</dd>
+  <dd>Git, MySQL, MS SQL Server, Software and Database Design, Object Role Modeling (ORM)</dd>
   <dt>Some experience with</dt>
   <dd>C++, Lisp</dd>
 </dl>
@@ -31,9 +31,9 @@ page_class: bl-resume
 <span class="bl-info bl-info-job_date">Sep 2010 - Present</span>
 <dl>
   <dt>Technologies</dt>
-  <dd>Actionscript, Flex, XML</dd>
+  <dd>GWT, Java, HTML5, CSS/SASS, Actionscript, Flex, XML</dd>
 </dl>
-<p>Working on the UI team as a Flex Developer. Responsibilites include maintaining and designing/building new features for Workday's metadata driven Flex application. Have built many components for various HCM and Financials features including a visualizer for hierarchical organization data and widget for itemizing lines of financial data.</p>
+<p>Working on the UI team as a Front End Web Developer. Responsibilites include maintaining and designing/building new features for Workday's metadata driven browser application. Have built many components for various HCM and Financials features. Prominent projects include leading the design and implementation of the front end of an inbox, working with a team of front end engineers to build a visualizer for hierarchical organization data.</p>
 <h3>Private Contractor</h3>
 <span class="bl-info bl-info-job_date">Oct 2009 - May 2010</span>
 <dl>
@@ -55,4 +55,4 @@ page_class: bl-resume
   <dd>Software Architecture and Design, Knowledge Representation, Algorithm Analysis</dd>
 </dl>
 </section>
-<footer><date class="bl-info" pubdate="02-2013">Last Updated: Feb 2013</date></footer>
+<footer><date class="bl-info" pubdate="09-2014">Last Updated: Sep 2014</date></footer>
