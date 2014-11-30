@@ -42,7 +42,7 @@ page_class: bl-resume
   <dt>Technologies</dt>
   <dd>Java, Silverlight</dd>
 </dl>
-<p>Enhanced and completely rebuilt a research tool to quantize images and measure proportions between color quantities. Worked to identify requirements, visual design, and added features that were integral to moving the research forward, resulting in a published paper. <span class="bl-web_only">See the <a href="/pages/projects/color_proportion.html">project page</a> for more information.</span></p>
+<p>Enhanced and completely rebuilt a research tool to quantize images and measure proportions between color quantities. Worked to identify requirements, visual design, and added features that were integral to moving the research forward. <span class="bl-web_only">See the <a href="/pages/projects/color_proportion.html">project page</a> for more information.</span></p>
 </section>
 
 <h2>Education</h2>
