@@ -33,7 +33,7 @@ page_class: bl-resume
   <dt>Technologies</dt>
   <dd>GWT, Java, HTML5, CSS/SASS, Actionscript, Flex, XML</dd>
 </dl>
-<p>Working on the UI team as a Front End Web Developer. Responsibilites include maintaining and designing/building new features for Workday's metadata driven browser application. Have built many components for various HCM and Financials features. Prominent projects include leading the design and implementation of the front end of an inbox, working with a team of front end engineers to build a visualizer for hierarchical organization data.</p>
+<p>Working on the UI team as a Front End Web Developer. Responsibilities include maintaining and designing/building new features for Workday's metadata driven browser application. Have built many components for various HCM and Financials features. Prominent projects include leading the design and implementation of the front end of an inbox, working with a team of front end engineers to build a visualizer for hierarchical organization data.</p>
 <h3>Private Contractor</h3>
 <span class="bl-info bl-info-job_date">Oct 2009 - May 2010</span>
 <dl>
