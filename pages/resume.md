@@ -40,7 +40,7 @@ page_class: bl-resume
 <h2>Employment</h2>
 <section>
 <h3>Workday Inc.</h3>
-<span>UI Developer</span>
+<span>Software Development Engineer</span>
 <span class="bl-info bl-info-job_date">Sep 2010 - Sep 2015</span>
 <dl>
   <dt>Technologies</dt>
