@@ -35,10 +35,6 @@ page_class: bl-resume
 <h3>Neumont University</h3>
 <em>summa cum laude</em>
 <span class="bl-info bl-info-degree">B.S. Computer Science, 9/2010</span>
-<dl>
-  <dt>Interests</dt>
-  <dd>Software Architecture and Design, Knowledge Representation, Algorithm Analysis</dd>
-</dl>
 </section>
 
 <h2>Employment</h2>
@@ -50,7 +46,7 @@ page_class: bl-resume
   <dt>Technologies</dt>
   <dd>GWT, Java, HTML5, CSS/SASS, Actionscript, Flex, XML</dd>
 </dl>
-<p>Worked on the UI team as a Front End Web Developer. Responsibilities included maintaining and designing/building new features for Workday's metadata driven browser application. Built many components for various HCM and Financials features. Prominent projects included leading the design and implementation of the front end of an inbox and working with a team of front end engineers to build a visualizer for hierarchical organization data.</p>
+<p>Worked on the UI team as a Front End Web Developer. Responsibilities included maintaining, designing, and building new features for Workday's metadata driven browser application. Built many components for various HCM and Financials features. Prominent projects included: led the design and implementation of the front end of an inbox and worked with a small team of front end engineers to build a novel visualizer for hierarchical organization data.</p>
 <h3>Private Contractor</h3>
 <span class="bl-info bl-info-job_date">Oct 2009 - May 2010</span>
 <dl>
