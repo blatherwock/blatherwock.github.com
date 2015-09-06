@@ -14,7 +14,7 @@ page_class: bl-resume
 <section>
 <dl class="bl-skills">
   <dt>Programming/Markup Languages</dt>
-  <dd>Javascript, HTML5, CSS3, Ruby, Java, C#, Actionscript, XML, XSLT</dd>
+  <dd>Octave, Javascript, HTML5, CSS3, Ruby, Java, C#, Actionscript, XML, XSLT</dd>
   <dt>Frameworks</dt>
   <dd>GWT, Flex, Rails, AngularJS, WPF, Silverlight, Asp.NET, J2EE</dd>
   <dt>Other Technical Skills</dt>
