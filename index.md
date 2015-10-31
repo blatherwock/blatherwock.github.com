@@ -35,7 +35,7 @@ I thrived in an accelerated CS undergraduate program, particurlary the algorithm
   <li><a href="https://plus.google.com/114434765567690468241" rel="me" class="socicon socicon-google"></a></li>
   <li><a href="https://github.com/blatherwock" rel="me" class="socicon socicon-github"></a></li>
   <li><a href="http://blatherwock.deviantart.com/" rel="me" class="socicon socicon-deviantart"></a></li>
-  <li><a href="https://www.flickr.com/photos/blatherwock/" rel="me" class="socicon socicon-flickr"></a></li>
+  <li><a href="https://www.flickr.com/people/blatherwock/" rel="me" class="socicon socicon-flickr"></a></li>
   <li><a href="http://steamcommunity.com/profiles/76561198032500689/" rel="me" class="socicon socicon-steam"></a></li>
   <li><a href="http://twitter.com/blatherwock" rel="me" class="socicon socicon-twitter"></a></li>
 </ul>
