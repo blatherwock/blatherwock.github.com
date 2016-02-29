@@ -47,7 +47,7 @@ page_class: bl-resume
   <dt>Technologies</dt>
   <dd>AWS, Python, Javascript, Node.js, React</dd>
 </dl>
-<p>Working with a team to build and deploy a recommendation system for preprint academic articles from arXiv. Adapting a matrix factorization model from recently published research paper to a service deployable on AWS that provides recommendations. Also built a web application that allows users to browse the article library while being presented with recommendations that update based on the users&#x27; behavior.</p>
+<p>Working with a team to build and deploy a recommendation system for preprint academic articles from arXiv. Adapting a matrix factorization model from a recent research paper to a service deployable on AWS that provides recommendations. Also built a web application that allows users to browse the article library while being presented with recommendations that update based on the users&#x27; behavior.</p>
 
 <h3>Workday Inc.</h3>
 <span>Software Development Engineer</span>
