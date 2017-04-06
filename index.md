@@ -7,27 +7,24 @@ page_class: bl-home
 About Joseph
 ------------
 
-I am a student, professional software engineer, occasional video gamer, hobbyist artist and musician living in Manhattan. I enjoy music improvisation and composition and I love going to musicals whenever my [partner][blargon] will come with me.
+I am a data science student, professional software engineer, occasional video gamer, hobbyist artist and musician living in Manhattan. I enjoy music improvisation and composition and I love going to musicals whenever my [partner][blargon] will come with me.
 
 
 Work
 ----
 
-I am currently a graduate student studying Computer Science at [Columbia University][columbia]. In the past I have worked as a front end engineer at [Workday Inc][workday] using GWT to build features for Workday's metadata driven UI application.
+I am currently a graduate student studying Computer Science at [Columbia University][columbia]. I've been enjoying learning about data science and machine learning. In the past I have worked as a front-end engineer at [Workday Inc][workday].
 
 
 Play
 ----
 
-Recently I've been doing projects involving AngularJS, HTML5/CSS3, and JavaScript. On the side when I have time I have been learning Lisp. 
+When not busy with schoolwork I've been exploring indie games on Steam or reading through the Discworld series. (Though I'm careful to avoid games which I know will pull me away from studies for too long!)
 
-Notable undergrad projects include a [color organizer][color_sorter] and an [image quantizer][color_proportion].
-
-
-Dream
+Future
 ------
+I'm going to be finishing my Master's degree soon and hope to find a job as a data science engineer. I have enjoyed my studies in the topic and am eager to explore a professional career in the area. If you're hiring data scientists, please check out my [resume][resume] and feel free to send me an email.
 
-I thrived in an accelerated CS undergraduate program, particurlary the algorithms and computational theory courses. It cultivated a desire to deepen my understanding of those topics and to investigate omitted areas. Studying at Columbia is allowing me to do exactly that and after finishing my degree I hope to find a career that allows me to use that understanding to solve interesting and complex problems.
 
 <ul>
   <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="socicon socicon-linkedin"></a></li>
