@@ -23,6 +23,7 @@ When not busy with schoolwork I've been exploring indie games on Steam or readin
 
 Future
 ------
+
 I'm going to be finishing my Master's degree soon and hope to find a job as a data science engineer. I have enjoyed my studies in the topic and am eager to explore a professional career in the area. If you're hiring data scientists, please check out my [resume][resume] and feel free to send me an email.
 
 
