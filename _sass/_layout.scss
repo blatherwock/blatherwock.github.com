@@ -169,6 +169,7 @@ object img {
   }
   dl+* {
     padding-top: 10px;
+    margin-bottom: 1em;
   }
   header {
     text-align: center;
@@ -195,6 +196,12 @@ object img {
   }
   dt, dd {
     margin-top: 3px;
+  }
+  ul {
+    margin-left: 2em; 
+  }
+  li {
+    list-style: disc; 
   }
   .bl-skills dd {
     clear: left;
