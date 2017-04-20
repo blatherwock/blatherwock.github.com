@@ -14,15 +14,15 @@ page_class: bl-resume
 <section>
 <dl class="bl-skills">
 	<dt>Data Science</dt>
-	<dd>Python (Pandas, NumPy, SciPy), Matlab, OCaml, SQL, Probabilistic Graphical Modeling</dd>
+	<dd>Pandas, Matplotlib, SQL</dd>
 	<dt>DevOps</dt>
-	<dd>Docker, AWS (EC2, S3, EB, DDB, RDS, Lambda)</dd>
+	<dd>Docker, AWS (EC2, S3, Elastic Beanstalk, RDS, Lambda)</dd>
 	<dt>Back-End</dt>
-	<dd>Ruby (Rails), Java, C#</dd>
+	<dd>Python, Ruby, Java, C#</dd>
 	<dt>Front-End</dt>
 	<dd>JavaScript (React, Node.js, AngularJS), HTML5, CSS3, GWT, ActionScript</dd>
 	<dt>Other</dt>
-	<dd>Git, LaTeX, Octave</dd>
+	<dd>Git</dd>
 </dl>
 </section>
 
@@ -59,7 +59,7 @@ page_class: bl-resume
 <span class="bl-info bl-info-job_date">09/16 - 12/16</span>
 <dl>
   <dt>Technologies</dt>
-  <dd>Python, AWS Lambda, Probabilistic Graphical Models, LaTeX</dd>
+  <dd>Python, Pandas, AWS (Lambda), Probabilistic Graphical Models</dd>
 </dl>
 <p>By analyzing Citi Bike usage patterns with Gaussian mixture models and other graphical models, constructed an algorithm to predict availability of bikes and docks at a given station in the near future.</p>
 <h3>arXiv Recommendation System</h3>
@@ -68,11 +68,15 @@ page_class: bl-resume
   <dt>Project Lead</dt>
   <dd>Prof. David Blei</dd>
   <dt>Technologies</dt>
-  <dd>AWS, Docker, Python, Javascript, Node.js, React</dd>
+  <dd>AWS (EC2, S3, Elastic Beanstalk, DDB, RDS), Docker, Python, Pandas, Javascript, Node.js, React</dd>
 </dl>
-<p>Graduate research project. Applied cutting edge recommendation research in a web application allowing users to navigate the arXiv and receive article recommendations. Built back-end services for collecting and processing article metadata and generating recommendations. Designed, built, and deployed a full-stack web application to run on AWS and on Columbia servers via Docker.</p>
+  <ul>
+      <li>Adapted recommendation models of a research team at Columbia to a web application that allows users to see recommended articles from the popular scientific pre-print service, arXiv.</li>
+      <li>Built back-end services for collecting and processing article metadata and generating recommendations.</li>
+      <li>Designed, built, and deployed a full-stack web application to run on AWS using Elastic Beanstalk and on premise using Docker.</li>
+  </ul>
 
-<h3>Image Quantization Tooling</h3>
+<h3>Image Quantization Tools</h3>
 <span class="bl-info bl-info-job_date">10/09 - 05/10</span>
 <dl>
   <dt>Project Lead</dt>
@@ -80,7 +84,7 @@ page_class: bl-resume
   <dt>Technologies</dt>
   <dd>Java, Silverlight</dd>
 </dl>
-<p>Undergraduate engineering/research project. Supported industrial design research by building software tools to analyze color data in images. <span class="bl-web_only">See the <a href="/pages/projects/color_proportion.html">project page</a> for more information.</span></p>
+<p>Supported industrial design research by building software tools to analyze color data in images. <span class="bl-web_only">See the <a href="/pages/projects/color_proportion.html">project page</a> for more information.</span></p>
 </section>
 
 

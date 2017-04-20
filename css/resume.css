@@ -15,7 +15,12 @@
     margin-left: 5px; }
   .bl-resume dl + * {
     padding-top: 10px;
+    margin-bottom: 1em;
     clear: left; }
+  .bl-resume ul {
+    margin-left: 2em; }
+  .bl-resume li {
+    list-style: disc; }
   .bl-resume header {
     text-align: center;
     padding-top: 15px; }
