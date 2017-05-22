@@ -29,7 +29,7 @@ page_class: bl-resume
 <h2>Education</h2>
 <section>
 <h3>Columbia University</h3>
-<span class="bl-info bl-info-degree">M.S. Computer Science, expected 05/17</span>
+<span class="bl-info bl-info-degree">M.S. Computer Science, 05/17</span>
 <dl>
   <dt>Track</dt>
   <dd>Machine Learning</dd>
