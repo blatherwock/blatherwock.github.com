@@ -32,7 +32,7 @@ I'm going to be finishing my Master's degree soon and hope to find a job as a da
   <li><a href="https://www.facebook.com/joseph.baker31" rel="me" class="socicon socicon-facebook"></a></li>
   <li><a href="https://plus.google.com/114434765567690468241" rel="me" class="socicon socicon-google"></a></li>
   <li><a href="https://github.com/blatherwock" rel="me" class="socicon socicon-github"></a></li>
-  <li><a href="http://blatherwock.deviantart.com/" rel="me" class="socicon socicon-deviantart"></a></li>
+  <!--<li><a href="http://blatherwock.deviantart.com/" rel="me" class="socicon socicon-deviantart"></a></li>-->
   <li><a href="https://www.flickr.com/people/blatherwock/" rel="me" class="socicon socicon-flickr"></a></li>
   <li><a href="http://steamcommunity.com/profiles/76561198032500689/" rel="me" class="socicon socicon-steam"></a></li>
   <li><a href="http://twitter.com/blatherwock" rel="me" class="socicon socicon-twitter"></a></li>
