@@ -24,7 +24,7 @@ When not busy with schoolwork I've been exploring indie games on Steam or readin
 
 Future
 ------
-Having finished my MS degree, I'm looking to rejoin the 'real world' as a data engineer. If you're hiring data engineers in NYC, please check out my [resume][resume] and feel free to send me an email.
+Having finished my MS degree, I'm looking to start working in software development again. If you're hiring data or backend engineers in NYC, please check out my [resume][resume] and feel free to send me an email.
 
 
 <ul>
