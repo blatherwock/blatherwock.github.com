@@ -2,41 +2,31 @@
 <html>
   <head>
     <title>{{page.title}}</title>
-    <link href="/css/yui_combo.css" media="screen" rel="stylesheet" />
+    <link href="/css/reset.css" media="screen" rel="stylesheet" />
     <link href="/css/main.css" media="screen" rel="stylesheet" />
     <script src="http://yui.yahooapis.com/3.5.0/build/yui/yui-min.js" defer="defer"></script>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?u8vidh">
     <script defer="defer" src="/js/base_site.js" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=Bubbler+One|Open+Sans:300italic,400,300,600' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   </head>
   <body>
     {% if page.large_template %}
-    <div class="bl-site_wrapper-large">
+      <div class="bl-site_wrapper-large">
     {% else %}
-    <div class="bl-site_wrapper">  
+      <div class="bl-site_wrapper">
     {% endif  %}
-      <header class="bl-main">
-	<img src="/images/tiger_lily.png" />
-	<h1><a href="/index.html">blatherwocky</a></h1>
-	<nav>
-	  <ul>
-	    <li><a href="/index.html">Home</a></li>
-
-	    <li><a href="/pages/resume.html">R&eacute;sum&eacute;</a></li>
-	  </ul>
-	</nav>
-      </header>
-      <div class="bl-content">
-	<article class="{{page.page_class}}">
-	  {{content}}
-	</article>
+        <div class="bl-content">
+          <article class="{{page.page_class}}">
+            {{content}}
+          </article>
+        </div>
+        <footer class="bl-main">
+          <!-- Site created with Jekyll by Joseph Baker -->
+          <span class="bl-info">Copyright &copy; {{site.time | date: '%Y' }} Joseph Baker. All rights reserved.</span>
+        </footer>
       </div>
-      <footer class="bl-main">
-	<!-- Site created with Jekyll by Joseph Baker -->
-	<span class="bl-info">Copyright &copy; {{site.time | date: '%Y' }} Joseph Baker. All rights reserved.</span>
-      </footer>
-    </div>
   </body>
 </html>

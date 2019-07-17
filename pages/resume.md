@@ -6,7 +6,6 @@ page_class: bl-resume
 
 <header>
   <h1>Joseph Baker</h1>
-  <a id="email" class="bl-contact" user="joseph" href="/contact/joseph/josephbaker/net"></a>
   <a class="bl-email" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=">Email</a>
 </header>
 
