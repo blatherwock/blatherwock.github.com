@@ -15,7 +15,7 @@ Joseph Baker
 <h2>
   <a onclick='toggleParagraphVisibility("engineer_desc")'>software engineer</a>,
 </h2>
-<p id="engineer_desc">Professional experience spans frontend to backend system architecture. Also spent a few years training in machine learning</p>
+<p id="engineer_desc">Professional experience spans frontend to backend system architecture. I studied computer science and machine learning at Columbia University.</p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("partner_desc")'>partner</a>,
