@@ -22,15 +22,28 @@ var Obfuscate = {
   }
 };
 //Unobfuscate the email
-YUI().use('node', 'event-base', function (Y) {
-    Y.on('domready', function () {
-	var email_nodes = Y.all('.bl-email');
-	email_nodes.each(function (email_node) {
-	    var obfuscated_email = email_node.getAttribute('data-email');
-	    var email = Obfuscate.deobfuscate(obfuscated_email);
-	    if(!email_node.get('text'))
-		email_node.set('text', email); 
-	    email_node.set('href', 'mailto:' + email);
-	});
-    });
+document.addEventListener('DOMContentLoaded', function(event) {
+  var elements = document.getElementsByClassName('bl-email');
+  for (let item of elements) {
+    var obfuscated_email = item.getAttribute('data-email');
+    var email = Obfuscate.deobfuscate(obfuscated_email);
+    item.setAttribute('href', 'mailto:' + email);
+  }
 });
+
+toggleParagraphVisibility = function(paraID) {
+  var selected_paragraph = document.getElementById(paraID);
+  var is_open = selected_paragraph.className === "show";
+  var all_paragraphs = document.getElementsByTagName('p');
+  // hide all the other paragraphs
+  for (let paragraph of all_paragraphs) {
+    paragraph.className = "";
+  }
+
+  // toggle the selected one
+  if (is_open) {
+    selected_paragraph.className = "";
+  } else {
+    selected_paragraph.className = "show"
+  }
+};

@@ -1,0 +1,131 @@
+:root{
+  --main-font-color: white;
+  --footer-font-color: #CCCCCC;
+  --background-color: rgb(90, 93, 105);
+  --title-font: 'Josefin Sans', sans-serif;
+  --paragraph-font: 'Lato', sans-serif;;
+}
+html
+{
+  min-height: 100vh;
+  background-image: url("/images/empire_state_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--background-color);
+  font-size: large;
+  color: var(--main-font-color);
+}
+body {
+  min-height:100vh;
+  display: grid;
+  grid: "main" auto "footer" 1.5rem / auto;
+  font-family: var(--paragraph-font);
+}
+article {
+  grid-area: main;
+  justify-self: center;
+  max-width: 40rem;
+  margin: 20vh 10vw 0;
+}
+footer {
+  grid-area: footer;
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 0.1rem;
+
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--footer-font-color);
+}
+h1, h2 {
+  font-family: var(--title-font);
+  letter-spacing: -0.05rem;
+  font-weight: 300;
+}
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.4rem;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  display: inline-block;
+}
+h1, h2, p {
+  text-shadow: 0px 1px 1px #000;
+}
+p {
+  font-size: 1.1rem;
+  margin: 0 0.5rem 1rem;
+  line-height: 1.5;
+  display: none;
+}
+p.show {
+  display: block;
+}
+a:visited { text-decoration: none; }
+a:link, a:hover, a:active, a:focus { text-decoration: underline;}
+
+ul {
+  text-align: center;
+  padding-top: 2rem;
+  li {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+.bl-icon {
+  text-decoration: none !important;
+}
+.socicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* loading screen */
+article {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-name: fadein;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.bl-loading {
+  grid-area: main / 1 / footer;
+  background: rgb(90, 93, 105);
+
+  animation-duration: 0.5s;
+  animation-delay: 0.25s;
+  animation-name: fadein;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* For other resolutions */
+@media all and (max-width: 1600px) {
+  html { font-size: medium; }
+}
+@media all and (max-width: 600px) {
+  html { font-size: small; }
+}
