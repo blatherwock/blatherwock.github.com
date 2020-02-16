@@ -8,7 +8,7 @@ Joseph Baker
 ============
 
 <h2>
-  <a onclick='toggleParagraphVisibility("current_work_desc")'>Engineering team lead</a>,
+  <a onclick='toggleParagraphVisibility("current_work_desc")'>Engineering manager</a>,
 </h2>
 <p id="current_work_desc">Currently at Hyperscience where I build software that automates office work and empowers workers to focus on what is important. I lead a global team of engineers along with QA, product, and design to ship new features every quarter.</p>
 
