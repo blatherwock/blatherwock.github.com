@@ -8,19 +8,14 @@ Joseph Baker
 ============
 
 <h2>
-  <a onclick='toggleParagraphVisibility("current_work_desc")'>Software Engineer</a>,
+  <a onclick='toggleParagraphVisibility("engineer_desc")'>Software engineer</a>,
 </h2>
-<p id="current_work_desc">Currently at Spark Advisors where I build software helping medicare patients navigate the healthcare system.</p>
-
-<h2>
-  <a onclick='toggleParagraphVisibility("engineer_desc")'>software engineer</a>,
-</h2>
-<p id="engineer_desc">Professional experience spans across the stack and through leadership positions. I studied computer science and machine learning at Columbia University.</p>
+<p id="engineer_desc">Currently at Spark Advisors where I build software helping medicare patients navigate the healthcare system. Prior experience spans across the stack and through leadership positions. I studied computer science and machine learning at Columbia University.</p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("partner_desc")'>partner</a>,
 </h2>
-<p id="partner_desc">Check out what he's up to <a href="http://www.blargon.net">here</a></p>
+<p id="partner_desc">Check out what he's up to <a href="https://www.blargon.net">here</a></p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("book_desc")'>bibliophile</a>,
@@ -43,5 +38,5 @@ Joseph Baker
 <ul>
   <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="bl-icon" title="LinkedIn">LinkedIn</a></li>
   <li><a href="https://github.com/blatherwock" rel="me" class="bl-icon" title="Github">Github</a></li>
-  <li><a class="bl-email bl-icon" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=" title="Contact"><i class="icofont-envelope"></i></a></li>
+  <li><a class="bl-email" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=" title="Contact">Email</a></li>
 </ul>
