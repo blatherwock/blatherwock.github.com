@@ -36,7 +36,7 @@ Joseph Baker
 
 
 <ul>
-  <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="bl-icon" title="LinkedIn">LinkedIn</a></li>
-  <li><a href="https://github.com/blatherwock" rel="me" class="bl-icon" title="Github">Github</a></li>
-  <li><a class="bl-email" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=" title="Contact">Email</a></li>
+  <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="bl-footer-link" title="LinkedIn">LinkedIn</a></li>
+  <li><a href="https://github.com/blatherwock" rel="me" class="bl-footer-link" title="Github">Github</a></li>
+  <li><a class="bl-email bl-footer-link" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=" title="Contact">Email</a></li>
 </ul>
