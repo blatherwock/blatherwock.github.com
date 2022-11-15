@@ -8,14 +8,14 @@ Joseph Baker
 ============
 
 <h2>
-  <a onclick='toggleParagraphVisibility("current_work_desc")'>Engineering manager</a>,
+  <a onclick='toggleParagraphVisibility("current_work_desc")'>Software Engineer</a>,
 </h2>
-<p id="current_work_desc">Currently at Hyperscience where I build software that automates office work and empowers workers to focus on what is important. I lead a global team of engineers along with QA, product, and design to ship new features every quarter.</p>
+<p id="current_work_desc">Currently at Spark Advisors where I build software helping medicare patients navigate the healthcare system.</p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("engineer_desc")'>software engineer</a>,
 </h2>
-<p id="engineer_desc">Professional experience spans frontend to backend system architecture. I studied computer science and machine learning at Columbia University.</p>
+<p id="engineer_desc">Professional experience spans across the stack and through leadership positions. I studied computer science and machine learning at Columbia University.</p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("partner_desc")'>partner</a>,
@@ -30,7 +30,7 @@ Joseph Baker
 <h2>
   <a onclick='toggleParagraphVisibility("gamer_desc")'>video gamer</a>,
 </h2>
-<p id="gamer_desc">I prefer role playing and puzzle games. Favorites so far are Grim Dawn, Stardew Valley, Skyrim, and Opus Magnum</p>
+<p id="gamer_desc">I prefer role playing and puzzle games. Latest favorites so far are Satisfactory, Stardew Valley, and Opus Magnum</p>
 
 <h2>
   <a onclick='toggleParagraphVisibility("music_desc")'>musician</a>
@@ -41,10 +41,7 @@ Joseph Baker
 
 
 <ul>
-  <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="bl-icon socicon socicon-linkedin" title="LinkedIn"></a></li>
-  <li><a href="https://github.com/blatherwock" rel="me" class="bl-icon socicon socicon-github" title="Github"></a></li>
-  <li><a href="https://www.flickr.com/people/blatherwock/" rel="me" class="bl-icon socicon socicon-flickr" title="Flickr"></a></li>
-  <li><a href="https://www.goodreads.com/user/show/93537592-joseph-baker" rel="me" class="bl-icon socicon socicon-goodreads" title="Goodreads"></a></li>
-  <li style="display: none"><a href="/pages/resume.html" title="R&eacute;sum&eacute;" class="bl-icon"><i class="icofont-papers" ></i></a></li>
+  <li><a href="https://www.linkedin.com/in/blatherwock" rel="me" class="bl-icon" title="LinkedIn">LinkedIn</a></li>
+  <li><a href="https://github.com/blatherwock" rel="me" class="bl-icon" title="Github">Github</a></li>
   <li><a class="bl-email bl-icon" href="/" data-email="MVvjjMGyA2bygrben99wGhJ9VSaY/bTEgenDoXsa8ZrCpwl7OBYYdpn8AnY=" title="Contact"><i class="icofont-envelope"></i></a></li>
 </ul>
